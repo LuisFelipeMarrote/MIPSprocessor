@@ -1,0 +1,25 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+USE IEEE.STD_LOGIC_UNSIGNED.ALL;
+entity Reg is
+	Port( 
+			Reg_En, Reg_Write : in STD_LOGIC;
+			Data_1, Data_2 : out STD_LOGIC_VECTOR(31 DOWNTO 0);
+			Write_Data : in STD_LOGIC_VECTOR(31 DOWNTO 0);
+			Read_Reg_1, Read_Reg_2 , Write_Reg_Dst: in STD_LOGIC_VECTOR(4 DOWNTO 0));
+end Reg;
+
+architecture Reg_arc of Reg is
+	type data_array is array (0 to 31) of STD_LOGIC_VECTOR(31 downto 0);
+		signal reg: data_array := (others => (others => '0'));
+begin 
+	Data_1 <= reg(to_integer(unsigned(Read_Reg_1)));
+	Data_2 <= reg(to_integer(unsigned(Read_Reg_2)));	
+	process(Reg_En, Reg_Write, Write_Reg_Dst, Write_Data)
+	begin 
+		if Reg_En = '1' and Reg_Write = '1' then
+			 reg(to_integer(unsigned(Write_Reg_Dst))) <= Write_Data;
+		end if;
+	end process;
+end Reg_arc;

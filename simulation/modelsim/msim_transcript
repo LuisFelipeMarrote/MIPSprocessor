@@ -1,0 +1,445 @@
+# Reading pref.tcl
+# do Control_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/DEMONIO_CAPETA/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/Control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:18 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/Control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Control
+# -- Compiling architecture Control_arc of Control
+# End time: 15:29:19 on Dec 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/Reg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:19 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/Reg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Reg
+# -- Compiling architecture Reg_arc of Reg
+# End time: 15:29:19 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/Ext.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:19 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/Ext.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity EXT
+# -- Compiling architecture EXT_arc of EXT
+# End time: 15:29:19 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/Alu_Control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:19 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/Alu_Control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Alu_Control
+# -- Compiling architecture Alu_Control_arc of Alu_Control
+# End time: 15:29:19 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/ADD1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:19 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/ADD1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ADD1
+# -- Compiling architecture ADD1_arch of ADD1
+# End time: 15:29:19 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/ADD2.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:19 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/ADD2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ADD2
+# -- Compiling architecture ADD2_arch of ADD2
+# End time: 15:29:19 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:19 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_arch of ALU
+# End time: 15:29:19 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/MUX32.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:19 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/MUX32.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity MUX32
+# -- Compiling architecture MUX32_arch of MUX32
+# End time: 15:29:19 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/RAM.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:19 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/RAM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture RAM_arch of RAM
+# End time: 15:29:19 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/MUX5.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:19 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/MUX5.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MUX5
+# -- Compiling architecture MUX5_arch of MUX5
+# End time: 15:29:20 on Dec 03,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/memory_instruc.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:20 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/memory_instruc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory_instruc
+# -- Compiling architecture Behavioral of memory_instruc
+# End time: 15:29:20 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/pc.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:20 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/pc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity pc
+# -- Compiling architecture pc_arch of pc
+# End time: 15:29:20 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/Maq_state.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:20 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/Maq_state.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Maq_state
+# -- Compiling architecture Maq_state_arch of Maq_state
+# End time: 15:29:20 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/Jump_Address.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:20 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/Jump_Address.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity Jump_Address
+# -- Compiling architecture Jump_Address_arc of Jump_Address
+# End time: 15:29:20 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/MIPS_Processador.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:20 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/MIPS_Processador.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MIPS_Processador
+# -- Compiling architecture MIPS_Processador_arch of MIPS_Processador
+# -- Loading entity Maq_state
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity pc
+# -- Loading entity memory_instruc
+# -- Loading entity Control
+# -- Loading entity MUX5
+# -- Loading entity Reg
+# -- Loading entity EXT
+# -- Loading entity Alu_Control
+# -- Loading entity ADD1
+# -- Loading entity Jump_Address
+# -- Loading entity MUX32
+# -- Loading entity ADD2
+# -- Loading entity ALU
+# -- Loading entity RAM
+# End time: 15:29:20 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {E:/DEMONIO_CAPETA/daibo/MIPS_Processador_Testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:20 on Dec 03,2023
+# vcom -reportprogress 300 -93 -work work E:/DEMONIO_CAPETA/daibo/MIPS_Processador_Testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MIPS_Processador_Testbench
+# -- Compiling architecture behavior of MIPS_Processador_Testbench
+# End time: 15:29:20 on Dec 03,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  MIPS_Processador_Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs=""+acc"" MIPS_Processador_Testbench 
+# Start time: 15:29:20 on Dec 03,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.mips_processador_testbench(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mips_processador(mips_processador_arch)
+# Loading work.maq_state(maq_state_arch)
+# Loading work.pc(pc_arch)
+# Loading work.memory_instruc(behavioral)
+# Loading work.control(control_arc)
+# Loading work.mux5(mux5_arch)
+# Loading work.reg(reg_arc)
+# Loading work.ext(ext_arc)
+# Loading work.alu_control(alu_control_arc)
+# Loading work.add1(add1_arch)
+# Loading work.jump_address(jump_address_arc)
+# Loading work.mux32(mux32_arch)
+# Loading work.add2(add2_arch)
+# Loading work.alu(alu_arch)
+# Loading work.ram(ram_arch)
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: LINUXBR  Hostname: DESKTOP-VNQDTLB  ProcessID: 19032
+#           Attempting to use alternate WLF file "./wlfti1gs5a".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfti1gs5a
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Reg_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Reg_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 3  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 3  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 3  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -8 is not in bounds of subtype NATURAL.
+#    Time: 535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -6 is not in bounds of subtype NATURAL.
+#    Time: 1035 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -6 is not in bounds of subtype NATURAL.
+#    Time: 1535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -4 is not in bounds of subtype NATURAL.
+#    Time: 2035 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -4 is not in bounds of subtype NATURAL.
+#    Time: 2535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 3035 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 3535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+do E:/DEMONIO_CAPETA/daibo/simulation/modelsim/wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /mips_processador_testbench/clk
+# add wave -noupdate /mips_processador_testbench/I_EN
+# add wave -noupdate /mips_processador_testbench/uut/RAM_instance/I_RAM_RE
+# add wave -noupdate /mips_processador_testbench/uut/RAM_instance/I_RAM_RE
+# add wave -noupdate /mips_processador_testbench/uut/RAM_instance/I_RAM_WE
+# add wave -noupdate /mips_processador_testbench/uut/RAM_instance/I_RAM_DATA
+# add wave -noupdate /mips_processador_testbench/uut/RAM_instance/I_RAM_ADDR
+# add wave -noupdate /mips_processador_testbench/uut/RAM_instance/O_RAM_DATA
+# add wave -noupdate -color {Medium Spring Green} /mips_processador_testbench/uut/RAM_instance/ram
+# add wave -noupdate /mips_processador_testbench/uut/Control_instance/Reg_dst
+# add wave -noupdate /mips_processador_testbench/uut/Control_instance/Branch
+# add wave -noupdate /mips_processador_testbench/uut/Control_instance/Jump
+# add wave -noupdate /mips_processador_testbench/uut/Control_instance/MemRead
+# add wave -noupdate /mips_processador_testbench/uut/Control_instance/MemtoReg
+# add wave -noupdate /mips_processador_testbench/uut/Control_instance/MemWrite
+# add wave -noupdate /mips_processador_testbench/uut/Control_instance/ALUSrc
+# add wave -noupdate /mips_processador_testbench/uut/Control_instance/RegWrite
+# add wave -noupdate /mips_processador_testbench/uut/Control_instance/ALUOp
+# add wave -noupdate -color Magenta /mips_processador_testbench/uut/Control_instance/Instr
+# add wave -noupdate /mips_processador_testbench/uut/Maq_state_instance/O_FSM_IF
+# add wave -noupdate /mips_processador_testbench/uut/Maq_state_instance/O_FSM_ID
+# add wave -noupdate /mips_processador_testbench/uut/Maq_state_instance/O_FSM_EX
+# add wave -noupdate /mips_processador_testbench/uut/Maq_state_instance/O_FSM_ME
+# add wave -noupdate /mips_processador_testbench/uut/Maq_state_instance/O_FSM_WB
+# add wave -noupdate /mips_processador_testbench/uut/Reg_instance/Reg_Write
+# add wave -noupdate /mips_processador_testbench/uut/Reg_instance/Data_1
+# add wave -noupdate /mips_processador_testbench/uut/Reg_instance/Data_2
+# add wave -noupdate /mips_processador_testbench/uut/Reg_instance/Write_Data
+# add wave -noupdate /mips_processador_testbench/uut/Reg_instance/Read_Reg_1
+# add wave -noupdate /mips_processador_testbench/uut/Reg_instance/Read_Reg_2
+# add wave -noupdate /mips_processador_testbench/uut/Reg_instance/Write_Reg_Dst
+# add wave -noupdate -color Gold /mips_processador_testbench/uut/Reg_instance/reg
+# add wave -noupdate /mips_processador_testbench/uut/MUX32_instance_2/O_MUX
+# add wave -noupdate /mips_processador_testbench/uut/MUX32_instance_2/I_MUX_0
+# add wave -noupdate /mips_processador_testbench/uut/MUX32_instance_2/I_MUX_1
+# add wave -noupdate /mips_processador_testbench/uut/MUX32_instance_2/I_MUX_Sel
+# add wave -noupdate /mips_processador_testbench/uut/ALU_instance/I_ALU_CTL
+# add wave -noupdate /mips_processador_testbench/uut/ALU_instance/O_ALU_Zero
+# add wave -noupdate /mips_processador_testbench/uut/ALU_instance/O_ALU_Out
+# add wave -noupdate /mips_processador_testbench/uut/ALU_instance/I_ALU_A
+# add wave -noupdate /mips_processador_testbench/uut/ALU_instance/I_ALU_B
+# add wave -noupdate /mips_processador_testbench/uut/Ext_instance/Ext_32
+# add wave -noupdate /mips_processador_testbench/uut/Ext_instance/Ext_16
+# add wave -noupdate /mips_processador_testbench/uut/Alu_Control_instance/ALU_Cntrl
+# add wave -noupdate /mips_processador_testbench/uut/Alu_Control_instance/Funct
+# add wave -noupdate /mips_processador_testbench/uut/Alu_Control_instance/ALU_Cntrl
+# add wave -noupdate /mips_processador_testbench/uut/Alu_Control_instance/ALUOp
+# add wave -noupdate /mips_processador_testbench/uut/MUX32_instance_4/O_MUX
+# add wave -noupdate /mips_processador_testbench/uut/MUX32_instance_4/I_MUX_0
+# add wave -noupdate /mips_processador_testbench/uut/MUX32_instance_4/I_MUX_1
+# add wave -noupdate /mips_processador_testbench/uut/MUX32_instance_4/I_MUX_Sel
+# add wave -noupdate /mips_processador_testbench/uut/ADD2_instance/O_ADD2_Out
+# add wave -noupdate /mips_processador_testbench/uut/ADD2_instance/I_ADD2_A
+# add wave -noupdate /mips_processador_testbench/uut/ADD2_instance/I_ADD2_B
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {615393 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 377
+# configure wave -valuecolwidth 212
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {273430 ps} {675083 ps}
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Reg_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Reg_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 3  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 3  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 3  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -8 is not in bounds of subtype NATURAL.
+#    Time: 535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -6 is not in bounds of subtype NATURAL.
+#    Time: 1035 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -6 is not in bounds of subtype NATURAL.
+#    Time: 1535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -4 is not in bounds of subtype NATURAL.
+#    Time: 2035 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -4 is not in bounds of subtype NATURAL.
+#    Time: 2535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 3035 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 3535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Reg_instance
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /mips_processador_testbench/uut/Reg_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 3  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 3  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 3  Instance: /mips_processador_testbench/uut/Alu_Control_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -8 is not in bounds of subtype NATURAL.
+#    Time: 535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -6 is not in bounds of subtype NATURAL.
+#    Time: 1035 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -6 is not in bounds of subtype NATURAL.
+#    Time: 1535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -4 is not in bounds of subtype NATURAL.
+#    Time: 2035 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -4 is not in bounds of subtype NATURAL.
+#    Time: 2535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 3035 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# ** Warning: (vsim-151) NUMERIC_STD.TO_INTEGER: Value -2 is not in bounds of subtype NATURAL.
+#    Time: 3535 ns  Iteration: 2  Instance: /mips_processador_testbench/uut/RAM_instance
+# End time: 15:31:05 on Dec 03,2023, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 15

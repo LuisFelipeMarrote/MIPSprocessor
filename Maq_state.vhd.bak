@@ -1,0 +1,55 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+entity Maq_state is
+    Port (
+        I_FSM_CLK    : in  std_logic;
+        I_FSM_EN     : in  std_logic;
+        I_FSM_INST   : in  std_logic_vector(31 downto 0);  
+        O_FSM_IF     : out std_logic;
+        O_FSM_ID     : out std_logic;
+        O_FSM_EX     : out std_logic;
+        O_FSM_ME     : out std_logic;
+        O_FSM_WB     : out std_logic
+    );
+end entity Maq_state;
+
+architecture Maq_state_arch of Maq_state is 
+    type state_type is (InF,ID,EX,ME,WB);
+    signal state : state_type := InF;
+
+begin 
+    process(I_FSM_CLK)
+    begin
+        if I_FSM_EN = '1' AND I_FSM_INST /= (I_FSM_INST'range=> '0')  then 
+            if rising_edge(I_FSM_CLK) then 
+                case state is 
+                    when InF => 
+                        O_FSM_IF <= '1'; 
+                        O_FSM_ID <= '0';
+                        O_FSM_EX <= '0';
+                        O_FSM_ME <= '0';
+                        O_FSM_WB <= '0';
+                        state <= ID; 
+                    when ID =>
+                        O_FSM_IF <= '0';
+                        O_FSM_ID <= '1';
+                        state <= EX;
+                    when EX =>
+                        O_FSM_ID <= '0'; 
+                        O_FSM_EX <= '1';
+                        state <= ME;
+                    when ME =>
+                        O_FSM_EX <= '0'; 
+                        O_FSM_ME <= '1';
+                        state <= WB;
+                    when WB =>
+                        O_FSM_ME <= '0'; 
+                        O_FSM_WB <= '1';
+                        state <= InF;
+                end case;
+            end if;
+        end if;
+    end process;
+end architecture Maq_state_arch;
+

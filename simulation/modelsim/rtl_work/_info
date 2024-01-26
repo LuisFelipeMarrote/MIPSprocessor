@@ -1,0 +1,741 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/DEMONIO_CAPETA/daibo/simulation/modelsim
+Eadd1
+Z1 w1701462336
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 4
+R0
+Z5 8E:/DEMONIO_CAPETA/daibo/ADD1.vhd
+Z6 FE:/DEMONIO_CAPETA/daibo/ADD1.vhd
+l0
+L4 1
+VaP^gPM=5FZh5_eYXfW<ca1
+!s100 =@_g3D>XcG_S^hk[BT??a3
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1701628159
+!i10b 1
+Z9 !s108 1701628159.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/ADD1.vhd|
+Z11 !s107 E:/DEMONIO_CAPETA/daibo/ADD1.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aadd1_arch
+R2
+R3
+R4
+Z14 DEx4 work 4 add1 0 22 aP^gPM=5FZh5_eYXfW<ca1
+!i122 4
+l11
+L10 4
+VZ01G9JlR2MWjHiCCCWE8;2
+!s100 o1Pk_V50WGeM1W>bOPQkR1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eadd2
+Z15 w1701462400
+R2
+R3
+R4
+!i122 5
+R0
+Z16 8E:/DEMONIO_CAPETA/daibo/ADD2.vhd
+Z17 FE:/DEMONIO_CAPETA/daibo/ADD2.vhd
+l0
+L4 1
+VToS7gFbFFMa8hBf:Fd5Ck2
+!s100 D[]JX6zh32We;b?_X]>@`3
+R7
+31
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/ADD2.vhd|
+Z19 !s107 E:/DEMONIO_CAPETA/daibo/ADD2.vhd|
+!i113 1
+R12
+R13
+Aadd2_arch
+R2
+R3
+R4
+Z20 DEx4 work 4 add2 0 22 ToS7gFbFFMa8hBf:Fd5Ck2
+!i122 5
+l13
+L11 6
+VB;VALLKgNImTL]:U_zQ>52
+!s100 3aa6`>@PV9g`EEVm^h7;N2
+R7
+31
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Ealu
+Z21 w1701462485
+R2
+R3
+R4
+!i122 6
+R0
+Z22 8E:/DEMONIO_CAPETA/daibo/ALU.vhd
+Z23 FE:/DEMONIO_CAPETA/daibo/ALU.vhd
+l0
+L4 1
+V>b7>g`?V5bcTn==7IC4Wa3
+!s100 NOJ7cN_:Cm<oToA;oj`9j0
+R7
+31
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/ALU.vhd|
+Z25 !s107 E:/DEMONIO_CAPETA/daibo/ALU.vhd|
+!i113 1
+R12
+R13
+Aalu_arch
+R2
+R3
+R4
+Z26 DEx4 work 3 alu 0 22 >b7>g`?V5bcTn==7IC4Wa3
+!i122 6
+l16
+L14 16
+VfSY@XHN2o9nz8SDA_mZoJ2
+!s100 Z:@gKGLc>f3=7;SUmMNb91
+R7
+31
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Ealu_control
+Z27 w1701569398
+Z28 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z29 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R4
+!i122 3
+R0
+Z30 8E:/DEMONIO_CAPETA/daibo/Alu_Control.vhd
+Z31 FE:/DEMONIO_CAPETA/daibo/Alu_Control.vhd
+l0
+L5 1
+VcHGDJ:Ke>^2W28RWnfVn^1
+!s100 VjMUQ_EE=?ChEO[^TSdRK1
+R7
+31
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/Alu_Control.vhd|
+Z33 !s107 E:/DEMONIO_CAPETA/daibo/Alu_Control.vhd|
+!i113 1
+R12
+R13
+Aalu_control_arc
+R28
+R29
+R2
+R3
+R4
+Z34 DEx4 work 11 alu_control 0 22 cHGDJ:Ke>^2W28RWnfVn^1
+!i122 3
+l13
+L12 19
+VjEoZ[>Ka83QVeglKVgLDU0
+!s100 De=0X=_1<P[WNFB<zc=4<0
+R7
+31
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Econtrol
+Z35 w1701619691
+R28
+R29
+R2
+R3
+R4
+!i122 0
+R0
+Z36 8E:/DEMONIO_CAPETA/daibo/Control.vhd
+Z37 FE:/DEMONIO_CAPETA/daibo/Control.vhd
+l0
+L5 1
+Voc>8kzRhef^n>bdnJWSRX0
+!s100 >17c]B2ao9Y>Co;iJ1VBh3
+R7
+31
+Z38 !s110 1701628158
+!i10b 1
+Z39 !s108 1701628158.000000
+Z40 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/Control.vhd|
+Z41 !s107 E:/DEMONIO_CAPETA/daibo/Control.vhd|
+!i113 1
+R12
+R13
+Acontrol_arc
+R28
+R29
+R2
+R3
+R4
+Z42 DEx4 work 7 control 0 22 oc>8kzRhef^n>bdnJWSRX0
+!i122 0
+l14
+L13 71
+VzoF<jgT^iCL;zihaHI;N41
+!s100 Ol2ag[[Aa3o8iLjVEZjkc3
+R7
+31
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R12
+R13
+Eext
+Z43 w1701461879
+R28
+R29
+R2
+R3
+R4
+!i122 2
+R0
+Z44 8E:/DEMONIO_CAPETA/daibo/Ext.vhd
+Z45 FE:/DEMONIO_CAPETA/daibo/Ext.vhd
+l0
+L5 1
+V@61^24FZn]SK`lX7nTXIO2
+!s100 me_]kof?QB=;6lDH[c1IP1
+R7
+31
+R8
+!i10b 1
+R9
+Z46 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/Ext.vhd|
+Z47 !s107 E:/DEMONIO_CAPETA/daibo/Ext.vhd|
+!i113 1
+R12
+R13
+Aext_arc
+R28
+R29
+R2
+R3
+R4
+Z48 DEx4 work 3 ext 0 22 @61^24FZn]SK`lX7nTXIO2
+!i122 2
+l12
+L11 5
+Vj7109V;7O=fJflGWP;a8R1
+!s100 Po97j:znTaAi9g^<Zjz1H0
+R7
+31
+R8
+!i10b 1
+R9
+R46
+R47
+!i113 1
+R12
+R13
+Ejump_address
+Z49 w1701615115
+R28
+R29
+R2
+R3
+R4
+!i122 13
+R0
+Z50 8E:/DEMONIO_CAPETA/daibo/Jump_Address.vhd
+Z51 FE:/DEMONIO_CAPETA/daibo/Jump_Address.vhd
+l0
+L5 1
+VMG^ED17z5<:>S]Xd2z^ai2
+!s100 ]clYzU>^?jA3D9@3S@BFI3
+R7
+31
+Z52 !s110 1701628160
+!i10b 1
+Z53 !s108 1701628160.000000
+Z54 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/Jump_Address.vhd|
+Z55 !s107 E:/DEMONIO_CAPETA/daibo/Jump_Address.vhd|
+!i113 1
+R12
+R13
+Ajump_address_arc
+R28
+R29
+R2
+R3
+R4
+Z56 DEx4 work 12 jump_address 0 22 MG^ED17z5<:>S]Xd2z^ai2
+!i122 13
+l14
+L12 6
+VffR467fJEn7f<@jg;QYAG0
+!s100 fjSSRc1K`PRmDzL?MOA3N2
+R7
+31
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R12
+R13
+Emaq_state
+Z57 w1701533815
+R2
+R3
+R4
+!i122 12
+R0
+Z58 8E:/DEMONIO_CAPETA/daibo/Maq_state.vhd
+Z59 FE:/DEMONIO_CAPETA/daibo/Maq_state.vhd
+l0
+L4 1
+VH]z3fCU7<5JPLLj0X3S[c1
+!s100 CH5IHBD^ALVZd15B^f4BF2
+R7
+31
+R52
+!i10b 1
+R53
+Z60 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/Maq_state.vhd|
+Z61 !s107 E:/DEMONIO_CAPETA/daibo/Maq_state.vhd|
+!i113 1
+R12
+R13
+Amaq_state_arch
+R2
+R3
+R4
+Z62 DEx4 work 9 maq_state 0 22 H]z3fCU7<5JPLLj0X3S[c1
+!i122 12
+l21
+L17 38
+V8bnEf1L^Rg<ZXoa21GnW03
+!s100 CJT:0f2TJ`nEh201LL0il2
+R7
+31
+R52
+!i10b 1
+R53
+R60
+R61
+!i113 1
+R12
+R13
+Ememory_instruc
+Z63 w1701628141
+R2
+R3
+R4
+!i122 10
+R0
+Z64 8E:/DEMONIO_CAPETA/daibo/memory_instruc.vhd
+Z65 FE:/DEMONIO_CAPETA/daibo/memory_instruc.vhd
+l0
+L4 1
+VFEihYYT91eNRC0NOP3hCX0
+!s100 R`HKk21PJOojBAjmUWP0?3
+R7
+31
+R52
+!i10b 1
+R53
+Z66 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/memory_instruc.vhd|
+Z67 !s107 E:/DEMONIO_CAPETA/daibo/memory_instruc.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+Z68 DEx4 work 14 memory_instruc 0 22 FEihYYT91eNRC0NOP3hCX0
+!i122 10
+l31
+L11 30
+VmC9CS[TLjUDWXLKL@oCLl0
+!s100 ;6jfh1D=V=jHMRcNcfCmD0
+R7
+31
+R52
+!i10b 1
+R53
+R66
+R67
+!i113 1
+R12
+R13
+Emips_processador
+Z69 w1701616699
+R2
+R3
+R4
+!i122 14
+R0
+Z70 8E:/DEMONIO_CAPETA/daibo/MIPS_Processador.vhd
+Z71 FE:/DEMONIO_CAPETA/daibo/MIPS_Processador.vhd
+l0
+L4 1
+VGej`nbH:ZPQ_=dB`DogaF3
+!s100 ]_c290KH73HRS6Ic^e97I1
+R7
+31
+R52
+!i10b 1
+R53
+Z72 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/MIPS_Processador.vhd|
+Z73 !s107 E:/DEMONIO_CAPETA/daibo/MIPS_Processador.vhd|
+!i113 1
+R12
+R13
+Amips_processador_arch
+Z74 DEx4 work 3 ram 0 22 hP;[O2m0:1IiJ=L340hfP0
+R26
+R20
+Z75 DEx4 work 5 mux32 0 22 8G3E:lWOFJ`JUe5Ydn_GS1
+R56
+R14
+R34
+R48
+Z76 DEx4 work 3 reg 0 22 URT8P<olQzoaMM8AZK[Iz3
+Z77 DEx4 work 4 mux5 0 22 ;di:Fae2K[Q0:aYo:8Y@33
+R42
+R68
+R28
+R29
+Z78 DEx4 work 2 pc 0 22 dVzmZ9M9Ac<6IS8zGlEeU2
+R62
+R2
+R3
+R4
+DEx4 work 16 mips_processador 0 22 Gej`nbH:ZPQ_=dB`DogaF3
+!i122 14
+l54
+L11 197
+Vi`2?hUC<47^lP4E9fPo_l2
+!s100 fcFa=>YO4@dP_EGD@U5hE0
+R7
+31
+R52
+!i10b 1
+R53
+R72
+R73
+!i113 1
+R12
+R13
+Emips_processador_testbench
+Z79 w1701550717
+R2
+R3
+R4
+!i122 15
+R0
+Z80 8E:/DEMONIO_CAPETA/daibo/MIPS_Processador_Testbench.vhd
+Z81 FE:/DEMONIO_CAPETA/daibo/MIPS_Processador_Testbench.vhd
+l0
+L5 1
+VD3^l_f7UodgaG=HAa_hcJ2
+!s100 L6m<YP@MXC0AW_?h=>Wf<3
+R7
+31
+R52
+!i10b 1
+R53
+Z82 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/MIPS_Processador_Testbench.vhd|
+!s107 E:/DEMONIO_CAPETA/daibo/MIPS_Processador_Testbench.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 26 mips_processador_testbench 0 22 D3^l_f7UodgaG=HAa_hcJ2
+!i122 15
+l21
+L8 33
+V<Raci;zH?bzQazaci0RNS1
+!s100 ?6_BmO<=^b?UaEhI5V0Em2
+R7
+31
+R52
+!i10b 1
+R53
+R82
+Z83 !s107 E:/DEMONIO_CAPETA/daibo/MIPS_Processador_Testbench.vhd|
+!i113 1
+R12
+R13
+Emux32
+Z84 w1701462544
+R29
+R28
+R3
+R4
+!i122 7
+R0
+Z85 8E:/DEMONIO_CAPETA/daibo/MUX32.vhd
+Z86 FE:/DEMONIO_CAPETA/daibo/MUX32.vhd
+l0
+L5 1
+V8G3E:lWOFJ`JUe5Ydn_GS1
+!s100 <?GP<l?<2<P=IoCAFQH:81
+R7
+31
+R8
+!i10b 1
+R9
+Z87 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/MUX32.vhd|
+Z88 !s107 E:/DEMONIO_CAPETA/daibo/MUX32.vhd|
+!i113 1
+R12
+R13
+Amux32_arch
+R29
+R28
+R3
+R4
+R75
+!i122 7
+l14
+L13 4
+VZzB:5MdcEiIQA:V=bJSXN1
+!s100 7WSPJzERaPFGK0CR`k`fJ2
+R7
+31
+R8
+!i10b 1
+R9
+R87
+R88
+!i113 1
+R12
+R13
+Emux5
+Z89 w1701465639
+R2
+R3
+R4
+!i122 9
+R0
+Z90 8E:/DEMONIO_CAPETA/daibo/MUX5.vhd
+Z91 FE:/DEMONIO_CAPETA/daibo/MUX5.vhd
+l0
+L4 1
+V;di:Fae2K[Q0:aYo:8Y@33
+!s100 VM?VW<BzFZ@IKVoYgi??R3
+R7
+31
+R52
+!i10b 1
+R9
+Z92 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/MUX5.vhd|
+Z93 !s107 E:/DEMONIO_CAPETA/daibo/MUX5.vhd|
+!i113 1
+R12
+R13
+Amux5_arch
+R2
+R3
+R4
+R77
+!i122 9
+l13
+L12 4
+VA@JfhWMgfVLejM8D;Z1f@1
+!s100 PUdMHH^6bb3OVJD:I266j2
+R7
+31
+R52
+!i10b 1
+R9
+R92
+R93
+!i113 1
+R12
+R13
+Epc
+Z94 w1701527132
+R28
+R29
+R2
+R3
+R4
+!i122 11
+R0
+Z95 8E:/DEMONIO_CAPETA/daibo/pc.vhd
+Z96 FE:/DEMONIO_CAPETA/daibo/pc.vhd
+l0
+L5 1
+VdVzmZ9M9Ac<6IS8zGlEeU2
+!s100 h64^7MM^dc@:mGz4GNZjT3
+R7
+31
+R52
+!i10b 1
+R53
+Z97 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/pc.vhd|
+Z98 !s107 E:/DEMONIO_CAPETA/daibo/pc.vhd|
+!i113 1
+R12
+R13
+Apc_arch
+R28
+R29
+R2
+R3
+R4
+R78
+!i122 11
+l13
+L12 9
+V0Qb^3?a6>WWI9Y1WabOd_1
+!s100 9W2oEzMlUm2W2ZUOV[n4B2
+R7
+31
+R52
+!i10b 1
+R53
+R97
+R98
+!i113 1
+R12
+R13
+Eram
+Z99 w1701532303
+R2
+R3
+R4
+!i122 8
+R0
+Z100 8E:/DEMONIO_CAPETA/daibo/RAM.vhd
+Z101 FE:/DEMONIO_CAPETA/daibo/RAM.vhd
+l0
+L4 1
+VhP;[O2m0:1IiJ=L340hfP0
+!s100 iB`SRzaN;nBW9=O;j_9I>3
+R7
+31
+R8
+!i10b 1
+R9
+Z102 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/RAM.vhd|
+Z103 !s107 E:/DEMONIO_CAPETA/daibo/RAM.vhd|
+!i113 1
+R12
+R13
+Aram_arch
+R2
+R3
+R4
+R74
+!i122 8
+l17
+L14 20
+VVe5VlQ3GJ;nJ43UUiYj@L3
+!s100 j<=jm0CgAV;bF_3T_WF=>1
+R7
+31
+R8
+!i10b 1
+R9
+R102
+R103
+!i113 1
+R12
+R13
+Ereg
+Z104 w1701469760
+R28
+R29
+R2
+R3
+R4
+!i122 1
+R0
+Z105 8E:/DEMONIO_CAPETA/daibo/Reg.vhd
+Z106 FE:/DEMONIO_CAPETA/daibo/Reg.vhd
+l0
+L5 1
+VURT8P<olQzoaMM8AZK[Iz3
+!s100 F`Ja8=LlD8cTSG[PcVK?`3
+R7
+31
+R8
+!i10b 1
+R9
+Z107 !s90 -reportprogress|300|-93|-work|work|E:/DEMONIO_CAPETA/daibo/Reg.vhd|
+Z108 !s107 E:/DEMONIO_CAPETA/daibo/Reg.vhd|
+!i113 1
+R12
+R13
+Areg_arc
+R28
+R29
+R2
+R3
+R4
+R76
+!i122 1
+l16
+L13 13
+V_aMc?`SNPiY>DWVz7U6920
+!s100 V8o5JUlJ=L^]3;WXR?<nG1
+R7
+31
+R8
+!i10b 1
+R9
+R107
+R108
+!i113 1
+R12
+R13

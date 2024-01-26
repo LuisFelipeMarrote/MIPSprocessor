@@ -1,0 +1,29 @@
+LIBRARY IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+entity MIPS_Processador is
+	port (
+			
+			);
+end MIPS_Processador;
+
+architecture MIPS_Processador_arch of MIPS_Processador is
+signal I_ALU_EN: in std_logic;
+signal I_ALU_CTL: in std_logic_Vector(3 downto 0);
+signal O_ALU_Zero: out std_logic;
+signal O_ALU_Out: out std_logic_Vector(31 downto 0);
+signal I_ALU_A: in std_logic_Vector(31 downto 0);
+signal I_ALU_B: in std_logic_Vector(31 downto 0));
+
+begin
+
+	ALU_instance : entity work.ALU 
+		port map (
+			I_ALU_EN => I_ALU_EN
+			I_ALU_CTL => I_ALU_CTL
+			O_ALU_Zero => O_ALU_Zero
+			O_ALU_Out => O_ALU_Out
+			I_ALU_A => I_ALU_A
+			I_ALU_B => I_ALU_B
+	end component;
+end MIPS_Processador_arch;
